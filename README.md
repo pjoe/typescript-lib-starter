@@ -9,7 +9,7 @@ TypeScript library starter with:
 ## pre-requisites
 - node
 - yarn
-- recommenden: vscode
+- recommended: [vscode](https://code.visualstudio.com/)
 
 ## Install
 - `git clone https://github.com/pjoe/typescript-lib-starter.git my-project`
