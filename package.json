@@ -1,0 +1,36 @@
+{
+    "name": "typescript-lib-starter",
+    "version": "0.0.1",
+    "description": "TypeScript library starter with test, coverage, linting, formatting",
+    "main": "",
+    "module": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "repository": "https://github.com/pjoe/typescript-lib-starter.git",
+    "author": "Pelle Johnsen",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jasmine": "latest",
+        "jasmine-core": "latest",
+        "jsdom": "latest",
+        "karma": "latest",
+        "karma-chrome-launcher": "latest",
+        "karma-cli": "latest",
+        "karma-jasmine": "latest",
+        "karma-jsdom-launcher": "latest",
+        "karma-spec-reporter": "latest",
+        "karma-typescript": "latest",
+        "karma-typescript-es6-transform": "latest",
+        "opn-cli": "latest",
+        "prettier": "latest",
+        "tslint": "latest",
+        "tslint-config-prettier": "latest",
+        "typescript": "latest"
+    },
+    "scripts": {
+        "compile": "tsc",
+        "lint": "tslint -t codeFrame -p tsconfig.json",
+        "test": "karma start --single-run",
+        "watch": "karma start",
+        "open:cover": "opn coverage/jsdom/html/index.html"
+    }
+}
