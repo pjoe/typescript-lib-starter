@@ -1,5 +1,10 @@
 # typescript-lib-starter
-TypeScript library starter with test(karma, jasmine), coverage(istanbul), linting(tslint) and formatting(prettier)
+TypeScript library starter with:
+- test([karma](https://karma-runner.github.io),
+    [jasmine](https://jasmine.github.io/))
+- coverage([istanbul](https://istanbul.js.org/))
+- linting([tslint](https://palantir.github.io/tslint/))
+- formatting([prettier](https://prettier.io/))
 
 ## pre-requisites
 - node
